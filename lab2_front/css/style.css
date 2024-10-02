@@ -11,17 +11,17 @@ table {
 
 .first-row {
     background-color: #88ff88;
-    color: #000000; /* Контрастный цвет текста */
+    color: #000000; 
     transition: background-color 0.3s, color 0.3s;
 }
 
 .second-row {
     background-color: #ff55ff;
-    color: #000000; /* Контрастный цвет текста */
+    color: #000000; 
     transition: background-color 0.3s, color 0.3s;
 }
 
-/* При наведении изменяем цвета на противоположные */
+
 .first-row:hover {
     background-color: #000000;
     color: #88ff88;
