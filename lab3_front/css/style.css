@@ -67,7 +67,7 @@ body {
     color: white;
 }
 
-/* Blue guiding lines for layout */
+
 .container::before {
     content: "";
     position: absolute;
