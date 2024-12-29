@@ -1,0 +1,66 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+          name="viewport">
+    <meta content="ie=edge" http-equiv="X-UA-Compatible">
+    <title>Лабораторна робота</title>
+    <style>
+        form {
+            max-width: 400px;
+            margin: 20px auto;
+        }
+
+        .error {
+            border: 2px solid red;
+            background-color: #fdd;
+        }
+
+        table {
+            border-collapse: collapse;
+            margin: 20px auto;
+        }
+
+        table td {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+<h1>Завдання 1: Форма</h1>
+<form id="form">
+    <label>
+        Факультет:
+        <input type="text" id="faculty" placeholder="ТТТТ">
+    </label><br><br>
+    <label>
+        Дата народження:
+        <input type="text" id="birthdate" placeholder="чч.чч.чччч">
+    </label><br><br>
+    <label>
+        Адреса:
+        <input type="text" id="address" placeholder="м. ТТТТТ">
+    </label><br><br>
+    <label>
+        Email:
+        <input type="email" id="email" placeholder="tttt@tttt.com">
+    </label><br><br>
+    <label>
+        Telegram:
+        <input type="text" id="telegram" placeholder="@TTTT">
+    </label><br><br>
+    <button type="button" id="submitForm">Надіслати</button>
+</form>
+
+<h1>Завдання 2: Таблиця</h1>
+<table id="grid">
+    <!-- Таблиця заповниться динамічно -->
+</table>
+
+<script src="script.js"></script>
+</body>
+</html>
+    
